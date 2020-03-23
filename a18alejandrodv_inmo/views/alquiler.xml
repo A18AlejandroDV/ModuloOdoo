@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="inmo_alquiler_action" model="ir.actions.act_window">
+        <field name="name">Alquiler</field>
+        <field name="res_model">inmo.alquiler</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Inmobiliaria" id="inmo_menu" />
+    <menuitem name="Alquiler" id="inmo_alquiler_menu" parent="inmo_menu" action="inmo_alquiler_action"/>
+
+</odoo>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="inmo_pisos_action" model="ir.actions.act_window">
+        <field name="name">Pisos</field>
+        <field name="res_model">inmo.pisos</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Inmobiliaria" id="inmo_menu" />
+    <menuitem name="Pisos" id="inmo_pisos_menu" parent="inmo_menu" action="inmo_pisos_action"/>
+
+</odoo>
