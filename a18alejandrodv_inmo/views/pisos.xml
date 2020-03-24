@@ -12,7 +12,7 @@
 
         <!-- Form View -->
         <record id="inmo_pisos_view_form" model="ir.ui.view">
-        <field name="name">Formulatio Pisos Inmobiliaria</field>
+        <field name="name">Formulario Pisos Inmobiliaria</field>
         <field name="model">inmo.pisos</field>
         <field name="arch" type="xml">
             <form>

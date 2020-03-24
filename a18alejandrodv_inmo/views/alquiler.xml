@@ -12,13 +12,14 @@
 
      <!-- Form View -->
         <record id="inmo_alquiler_view_form" model="ir.ui.view">
-        <field name="name">Formulatio Alquileres Inmobiliaria</field>
+        <field name="name">Formulario Alquileres Inmobiliaria</field>
         <field name="model">inmo.alquiler</field>
         <field name="arch" type="xml">
             <form>
                 <group>
-                    <field name="fecha_inicio"/>
-                    <field name="fecha_fin"/>
+                    <field name="direccion"/>
+                    <field name="date_start"/>
+                    <field name="date_end"/>
                 </group>
             </form>
         </field>
@@ -31,8 +32,9 @@
         <field name="model">inmo.alquiler</field>
         <field name="arch" type="xml">
             <tree>
-                    <field name="fecha_inicio"/>
-                    <field name="fecha_fin"/>
+                    <field name="direccion"/>
+                    <field name="date_start"/>
+                    <field name="date_end"/>
             </tree>
         </field>
     </record>

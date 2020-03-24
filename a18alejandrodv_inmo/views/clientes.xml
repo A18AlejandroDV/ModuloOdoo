@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="inmo_clientes_action" model="ir.actions.act_window">
+        <field name="name">Clientes</field>
+        <field name="res_model">inmo.clientes</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Inmobiliaria" id="inmo_menu" />
+    <menuitem name="Clientes" id="inmo_clientes_menu" parent="inmo_menu" action="inmo_clientes_action"/>
+
+     <!-- Form View -->
+        <record id="inmo_clientes_view_form" model="ir.ui.view">
+        <field name="name">Formulario Clientes Inmobiliaria</field>
+        <field name="model">inmo.clientes</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="partner_id"/>
+                    <field name="member_number"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+
+    <!-- Tree(list) View -->
+    <record id="inmo_clientes_view_tree" model="ir.ui.view">
+        <field name="name">Lista de Clientes</field>
+        <field name="model">inmo.clientes</field>
+        <field name="arch" type="xml">
+            <tree>
+                    <field name="partner_id"/>
+                    <field name="member_number"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

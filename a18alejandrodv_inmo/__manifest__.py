@@ -4,9 +4,7 @@
 
     'summary': "Gestión de Pisos y Alquileres para Inmobiliarias",
 
-    'description': """
-        Long description of module's purpose
-    """,
+    'description': "Gestión de Pisos y Alquileres para Inmobiliarias",
 
     'author': "A18AlejandroDV",
     'website': "http://www.yourcompany.com",
@@ -24,7 +22,8 @@
     'data': [
         'security/ir.model.access.csv',
         'views/pisos.xml',
-        'views/alquiler.xml'
+        'views/alquiler.xml',
+        'views/clientes.xml'
 
     ],
     # only loaded in demonstration mode

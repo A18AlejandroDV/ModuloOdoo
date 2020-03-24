@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_inmo_pisos,access.inmo.pisos,model_inmo_pisos,base.group_user,1,1,1,0
+access_inmo_alquiler,access.inmo.alquiler,model_inmo_alquiler,base.group_user,1,1,1,0
+access_inmo_clientes,access.inmo.clientes,model_inmo_clientes,base.group_user,1,1,1,0
