@@ -2,9 +2,7 @@
 {
     'name': "a18alejandrodv_inmo",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': "Gestión de Pisos y Alquileres para Inmobiliarias",
 
     'description': """
         Long description of module's purpose

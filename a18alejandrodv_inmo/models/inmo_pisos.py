@@ -21,7 +21,7 @@ class Pisos (models.Model):
 
 class Alquiler (models.Model):
     _name = "inmo.alquiler"
-    _descripcion = 'Alquiler'
+    _descripcion = "Alquiler"
     _order = "fecha_fin desc"
 
     fecha_inicio = fields.Date("Inicio Alquiler", default= lambda *a: (datetime.now().strftime('%Y-%m-%d')))

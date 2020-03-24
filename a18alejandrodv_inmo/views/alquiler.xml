@@ -10,4 +10,30 @@
     <menuitem name="Inmobiliaria" id="inmo_menu" />
     <menuitem name="Alquiler" id="inmo_alquiler_menu" parent="inmo_menu" action="inmo_alquiler_action"/>
 
+     <!-- Form View -->
+        <record id="inmo_alquiler_view_form" model="ir.ui.view">
+        <field name="name">Formulatio Alquileres Inmobiliaria</field>
+        <field name="model">inmo.alquiler</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="fecha_inicio"/>
+                    <field name="fecha_fin"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+
+    <!-- Tree(list) View -->
+    <record id="inmo_alquiler_view_tree" model="ir.ui.view">
+        <field name="name">Lista de Alquileres</field>
+        <field name="model">inmo.alquiler</field>
+        <field name="arch" type="xml">
+            <tree>
+                    <field name="fecha_inicio"/>
+                    <field name="fecha_fin"/>
+            </tree>
+        </field>
+    </record>
 </odoo>
