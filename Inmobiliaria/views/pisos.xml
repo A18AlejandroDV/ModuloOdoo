@@ -21,6 +21,8 @@
                     <field name="precio"/>
                     <field name="estado"/>
                     <field name="descripcion"/>
+                    <field name="propietario"/>
+                    <field name="img_piso"/>
                 </group>
             </form>
         </field>
@@ -36,6 +38,7 @@
                     <field name="direccion"/>
                     <field name="precio"/>
                     <field name="estado"/>
+                    <field name="propietario"/>
                     <field name="descripcion"/>
             </tree>
         </field>
